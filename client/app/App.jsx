@@ -1,7 +1,8 @@
 import React from 'react';
+import { Header } from './common/Header/Header'
 function App() {
     return (
-        <div>{'react setup from scratch without cra testing ts'}</div>
+        <Header />
     );
 }
 export default App;
